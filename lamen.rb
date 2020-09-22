@@ -13,7 +13,7 @@ class Lamen
 			return 0
         end
          
-        # It's not possible get 
+        # It's not possible get a result from a even combination from the hourglasses. 
         if (([hourglass_a, hourglass_b].max % [hourglass_a, hourglass_b].min) == 0)
             return 0
         end
